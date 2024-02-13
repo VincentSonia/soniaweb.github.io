@@ -106,13 +106,13 @@
   <body>
     <header>
       <h1>Mozilla</h1>
-        <img src="file:///C:\Users\User\Pictures\firefox_logo-only_RGB-120.png" alt="firefox logo"> 
+        <img src="https://vincentsonia.github.io/Assignment/lab2/part1/firefox_logo-only_RGB.png" alt="firefox logo"> 
 
     </header>
 
     <main>
       <article>
-        <!-- insert iframe from youtube -->
+        <iframe width="390" height="310" src="https://www.youtube.com/embed/ojcNcvb1olg"></iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -124,22 +124,29 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img srcset = "https://vincentsonia.github.io/Assignment/lab2/part1/firefox_logo-only_RGB.png" sizes = "(max-width: 450px) 120px, 400px src= "https://vincentsonia.github.io/Assignment/lab2/part1/firefox_logo-only_RGB.png" alt="firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img srcset = "https://vincentsonia.github.io//Assignment/lab2/part1/mozilla-dinosaur-head.png" sizes = "(max-width: 450px) 120px, 400px src= "https://vincentsonia.github.io//Assignment/lab2/part1/mozilla-dinosaur-head.png" alt="mozilla_dinosaur_head">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img srcset = "https://vincentsonia.github.io//Assignment/lab2/part1/firefox-addons.jpg" sizes = "(max-width: 450px) 120px, 400px src= "https://vincentsonia.github.io//Assignment/lab2/part1/firefox-addons.jpg" alt="firefoxaddons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img src= "https://vincentsonia.github.io//Assignment/lab2/part1/mdn.svg" alt="mdn">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+          <source 
+            media="(max-width:600px)" 
+            srcset="https://vincentsonia.github.io/Assignment/lab2/part1/red-panda.jpg">
+          <img 
+            src="https://vincentsonia.github.io/Assignment/lab2/part1/red-panda.jpg" 
+            alt="red panda">
+        </picture>
       </div>
 
     </main>
