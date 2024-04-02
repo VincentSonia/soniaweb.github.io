@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 
 
-const images = ['C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg', `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic3.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic4.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic5.jpg`];
+const images = ['C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' , 'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg', `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic3.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic4.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic5.jpg`];
 const alts = {
   'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' : 'Closeup of a human eye',
   'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg' : 'Rock that looks like a wave',
@@ -16,14 +16,13 @@ const alts = {
 }
 
 
-for (const imagePath of images) {
+for (const image of images) {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', imagePath);
-    newImage.setAttribute('alt', alts[imagePath]);
+    newImage.setAttribute('src', image);
+    newImage.setAttribute('alt', alts[image]);
     thumbBar.appendChild(newImage);
     newImage.addEventListener('click', e => {
       displayedImage.src = e.target.src;
-      displayedImage.alt = e.target.alt;
     });
   }
 
