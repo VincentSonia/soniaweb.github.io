@@ -6,9 +6,9 @@ const overlay = document.querySelector('.overlay');
 
 
 
-const images = ['C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
+const images = ['pic1.jpg', `pic2.jpg`, `pic3.jpg`, `pic4.jpg`, `pic5.jpg`];
 const alts = {
-  'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' : 'Closeup of a human eye',
+  'pic1.jpg' : 'Closeup of a human eye',
   'pic2.jpg' : 'Rock that looks like a wave',
   'pic3.jpg' : 'Purple and white pansies',
   'pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
