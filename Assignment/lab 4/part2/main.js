@@ -16,16 +16,16 @@ const alts = {
 }
 
 
-for (const image of images) {
-  const newImage = document.createElement('img');
-  newImage.setAttribute('src', `images/${image}`);
-  newImage.setAttribute('alt', alts[image]);
-  thumbBar.appendChild(newImage);
-  newImage.addEventListener('click', e => {
-    displayedImage.src = e.target.src;
-    displayedImage.alt = e.target.alt;
-  });
-}
+for (const imagePath of images) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', imagePath);
+    newImage.setAttribute('alt', alts[imagePath]);
+    thumbBar.appendChild(newImage);
+    newImage.addEventListener('click', e => {
+      displayedImage.src = e.target.src;
+      displayedImage.alt = e.target.alt;
+    });
+  }
 
 
 btn.addEventListener('click', () => {
