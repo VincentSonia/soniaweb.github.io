@@ -6,13 +6,13 @@ const overlay = document.querySelector('.overlay');
 
 
 
-const images = ['C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' , 'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg', `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic3.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic4.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic5.jpg`];
+const images = ['Assignment/lab 4/part2/pic1.jpg' , 'Assignment/lab 4/part2/pic2.jpg', `Assignment\lab 4\part2\pic3.jpg`, `Assignment\lab 4\part2\pic4.jpg`, `Assignment\lab 4\part2\pic5.jpg`];
 const alts = {
-  'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' : 'Closeup of a human eye',
-  'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg' : 'Rock that looks like a wave',
-  'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic3.jpg' : 'Purple and white pansies',
-  'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
-  'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic5.jpg' : 'Large moth on a leaf'
+  'Assignment/lab 4/part2/pic1.jpg' : 'Closeup of a human eye',
+  'Assignment/lab 4/part2/pic2.jpg' : 'Rock that looks like a wave',
+  'Assignment/lab 4/part2/pic3.jpg' : 'Purple and white pansies',
+  'Assignment/lab 4/part2/pic4.jpg' : 'Section of wall from a pharoah\'s tomb',
+  'Assignment/lab 4/part2/pic5.jpg' : 'Large moth on a leaf'
 }
 
 
