@@ -6,7 +6,7 @@ const overlay = document.querySelector('.overlay');
 
 
 
-const images = [src='C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' , 'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg', `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic3.jpg`, `c:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic4.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic5.jpg`];
+const images = ['C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' , 'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg', `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic3.jpg`, `c:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic4.jpg`, `C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic5.jpg`];
 const alts = {
     'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic1.jpg' : 'Closeup of a human eye',
     'C:\Users\User\Documents\GitHub\vincentsonia.github.io\Assignment\lab 4\part2\pic2.jpg' : 'Rock that looks like a wave',
